@@ -12,8 +12,8 @@ import campus.sunder.com.a360degreeinfodynamics.saraswatiastro.R;
  * Created by Admin on 9/29/2017.
  */
 
-public class HomeFragment extends Fragment {
-    public HomeFragment() {
+public class AboutFragment extends Fragment {
+    public AboutFragment() {
         // Required empty public constructor
     }
 
@@ -26,6 +26,6 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        return inflater.inflate(R.layout.fragment_about, container, false);
     }
 }
